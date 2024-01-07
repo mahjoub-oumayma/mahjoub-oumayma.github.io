@@ -42,11 +42,11 @@
   };
   $.fn.mauGallery.defaults = {
       columns: 3,
-      lightBox: !0,
+      lightBox: true,
       lightboxId: null,
-      showTags: !0,
+      showTags: true,
       tagsPosition: "bottom",
-      navigation: !0,
+      navigation: true,
   };
   $.fn.mauGallery.listeners = function (options) {
       $(".gallery-item").on("click", function () {
